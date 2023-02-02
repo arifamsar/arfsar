@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {BsFillLaptopFill, BsGithub, BsTelegram, BsYoutube,} from 'react-icons/bs';
+import {BsGithub, BsTelegram, BsYoutube,} from 'react-icons/bs';
 import {CgDarkMode} from 'react-icons/cg'
 import { Inter } from '@next/font/google';
 import Image from "next/image";
@@ -44,10 +44,8 @@ export default function Home() {
             <a href="https://www.youtube.com/@muhammadarifamsar5037"><BsYoutube/></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-sky-400 rounded-full w-80 h-80 mt-20 overflow-y-hidden md:h-96 md:w-96'>
-            <Image src={wave} 
-            style={{objectFit:"cover"}}/>
+            <Image src={wave}/>
           </div>
-          
         </section>
       </main>
     </div>
